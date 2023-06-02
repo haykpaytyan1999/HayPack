@@ -1,1 +1,1 @@
-export const HOST = "192.168.1.3";
+export const HOST = "https://api.haypack.tech";

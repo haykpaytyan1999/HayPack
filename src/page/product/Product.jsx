@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { getProduct } from '../../api/products';
 
 import ProductsOf from '../../component/productsOf/ProductsOf';
+import { Helmet } from 'react-helmet';
 
 
 const Product = () => {
@@ -18,9 +19,13 @@ const Product = () => {
     }, [id])
     return (
         <>
+            <Helmet>
+                <title>{product?.title}</title>
+                <meta name='description' content={product?.description} />
+            </Helmet>
             <DisplayRange product={product} />
             <ProductsOf product={product} />
-            
+
         </>
     )
 }

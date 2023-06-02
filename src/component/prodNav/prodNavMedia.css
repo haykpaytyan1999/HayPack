@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1000px) {
+    .prodNav{
+        width: 80%;
+    }
+    .nav_but{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .prodNav{
+        width: 95%;
+    }
+    .nav_but{
+        width: 31%;
+        font-size: 14px;
+    }
+}

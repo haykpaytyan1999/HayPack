@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .div_main {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .cont_phone {
+    padding: 0px 30px;
+  }
+  .cont_letter {
+    padding: 0px 30px;
+  }
+  .div_logo {
+    width: 220px;
+  }
+  .div_main {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .div_main {
+    width: 55%;
+  }
+  .div_cont {
+    width: 70%;
+  }
+  .div_main_right {
+    width: 30%;
+  }
+  .div_networks img {
+    width: 40px;
+  }
+  .cont_phone {
+    padding: 0px 0px;
+  }
+  .cont_letter {
+    padding: 0px 00px;
+  }
+  .div_networks .fac {
+    width: 30px;
+    height: 30px;
+  }
+  .div_networks .ins {
+    width: 30px;
+    height: 30px;
+  }
+  .div_networks .you {
+    width: 30px;
+    height: 40px;
+  }
+  .menu_main a {
+    font-size: 16px;
+  }
+  
+}
+@media screen and (max-width: 700px) {
+  .menu_main {
+    display: none;
+  }
+  .div_networks .burg {
+    color: #bdc6ce;
+    display: block;
+    cursor: pointer;
+  }
+  .div_networks img {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    display: block;
+    width: 70px;
+    height: 40px;
+  }
+  .cont_phone span {
+    font-size: 15px;
+  }
+  .cont_letter span {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .div_cont {
+    width: 80%;
+  }
+  .cont_letter span {
+    font-size: 12px;
+  }
+  .cont_phone span {
+    font-size: 12px;
+  }
+  .div_main_right {
+    width: 20%;
+  }
+  .cont_letter {
+    gap: 3px;
+  }
+  .div_logo p {
+    font-size: 12px;
+  }
+  .div_logo {
+    width: 145px;
+  }
+}

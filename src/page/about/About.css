@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div_about {
+  width: 100%;
+  height: auto;
+  /* border: solid 2px; */
+}
+.div_title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_comp {
+  width: 100%;
+  height: auto;
+  /* border: solid 2px; */
+}
+.about_comp h1{
+  padding: 20px;  
+}
+.about_comp p{
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.about_comp li {
+  padding: 10px 15px;
+}
+.flowLines{
+  width: 100%;
+  height: auto;
+  /* border: solid 2px; */
+}
+.flowLines h1{
+  padding: 20px;
+}
+.flowLines h3{
+  padding: 10px 20px;
+}
+.flowLines p{
+  padding: 5px 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.flowLines li{
+  padding: 10px 15px;
+}
+
+.choose_comp {
+  width: 100%;
+  height: auto;
+  /* border: solid 2px; */
+}
+.choose_comp h1{
+    padding: 10px;
+}
+.choose_comp p{
+    padding: 10px;
+}
+.choose_comp li{
+    padding: 10px;
+}

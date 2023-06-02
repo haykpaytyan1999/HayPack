@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.productsMain{
+    width: 100%;
+    height: auto;
+    /* border: solid 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

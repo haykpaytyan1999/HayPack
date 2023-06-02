@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.argumentProd {
+  width: 100%;
+  height: auto;
+  /* border: solid 2px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.argTable {
+  border-collapse: collapse;
+  width: 60%;
+  
+}
+.argTr,
+td,
+th {
+  border: solid 3px;
+  width: 50%;
+  text-align: start;
+  padding: 10px;
+}
+@media screen and (max-width: 500px) {
+  td,
+  th{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  td,
+  th{
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.material_main {
+  width: 100%;
+  height: 600px;
+  /* border: solid 2px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.div_img {
+  width: 250px;
+  height: 350px;
+  /* border: solid 2px; */
+}
+.div_img img {
+  width: 240px;
+  height: 250px;
+}
+@media screen and (max-width: 900px) {
+  .material_main {
+    flex-direction: column;
+    height: auto;
+  }
+}

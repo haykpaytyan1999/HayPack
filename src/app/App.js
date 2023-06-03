@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "../component/header/Header";
 import Carousel from "../component/carousel/Carousel";
